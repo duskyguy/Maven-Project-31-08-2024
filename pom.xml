@@ -38,6 +38,16 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+             <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-site-plugin</artifactId>
+      <version>3.9.1</version> <!-- Update to the latest version -->
+    </plugin>
+  </plugins>
+</build>
+
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
