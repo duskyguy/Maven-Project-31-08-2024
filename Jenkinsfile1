@@ -17,8 +17,7 @@ pipeline{
  stage('jetty'){
             steps
             {   
-                bat 'C:/Build/apache-maven-3.9.8/bin/mvn jetty:run
-'
+                bat 'C:/Build/apache-maven-3.9.8/bin/mvn jetty:run'
             }
         }
 
