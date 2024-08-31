@@ -38,6 +38,11 @@ stage('install'){
                 bat 'C:/Build/apache-maven-3.9.8/bin/mvn install'
             }
         }
-
+ stage('pmd'){
+            steps
+            {   
+                bat 'C:/Build/apache-maven-3.9.8/bin/mvn site:site'
+            }
+        }
     }
 }
